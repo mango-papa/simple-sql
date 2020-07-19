@@ -9,7 +9,7 @@ RUN apt-get install -y vim
 
 RUN apt-get install -y git
 
-WORKDIR RUN git clone https://github.com/PudgeKim/simple-sql.git
+WORKDIR RUN git clone https://github.com/mango-papa/simple-sql.git
 
 WORKDIR /simple-sql
 
